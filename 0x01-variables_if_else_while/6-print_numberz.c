@@ -1,21 +1,17 @@
-#include <stdlib.h>
 #include <stdio.h>
-#include <time.h>
-
 /**
- * main - Prints base 10 numbers
- * @void: Empty parameter list for main.
- * Description: Prints numbers 0-9
- * Return: 0 for success
+ * main - place where things work
+ * Return: 0 to end this thing
  */
 int main(void)
 {
-	int num = '0';
+	int i;
 
-	while (num <= '10')
+	i = '0';
+	while (i <= '9')
 	{
-		putchar(num);
-		num++;
+		putchar(i);
+		i++;
 	}
 	putchar('\n');
 	return (0);
