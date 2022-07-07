@@ -1,6 +1,22 @@
 #include "main.h"
 
 /**
+ * print_num - prints number
+ * @n: input number
+ *eturn: void
+ */
+void print_num(unsigned int n)
+{
+	int p, q;
+
+	p = n / 10;
+	q = n % 10;
+	_putchar(p + '0');
+	_putchar(q + '0');
+
+}
+
+/**
  * jack_bauer - prints every minute of the day of Jack Bauer.
  * Return: void
  */
