@@ -82,8 +82,8 @@ char **strtow(char *str)
 		{
 			for (i = i - 1; i >= 0; i--)
 				free(list[i]);
-				free(list);
-				return (NULL);
+			free(list);
+			return (NULL);
 		}
 		for (k = 0; str[j] != ' ' && str[j] != '\0'; k++)
 		{
